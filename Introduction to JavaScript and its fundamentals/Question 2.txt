@@ -1,0 +1,30 @@
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.
+
+Ans.Difference between JavaScript and HTML are->
+
+Basic of JavaScript and HTML:
+-HTML is a markup language that is used to create static web pages.On the other hand, JavaScript is a scripting language that is used to create dynamic web pages.
+
+Client-side vs. Server-side
+– HTML is rendered from the web server which means the markup code is processed by the server before it is sent to the client browser. This is different from the client-side scripting. The HTML pages are loaded on your server and then the server turn them into useful documents to be viewed on client browsers. JavaScript, one the other hand, is totally synchronous with client-side scripting meaning each code written is compiled and executed on the web browser. 
+
+Function of JavaScript and HTML:
+– HTML is the stepping stone to website development which generate a basic structure of a web page. HTML is how a website should look without the interactive effects and all. JavaScript, on the other hand, manipulates the content of the page to create effects on the user actions. It simply adds dynamic content to websites to make them look good.
+
+Dynamic Programming
+– JavaScript is one of the core technologies of the World Wide Web, alongside HTML and CSS. Standard HTML pages are static pages which means the content are fixed and displays the same information to every user who access the website. It cannot interact with user’s input. Incorporating JavaScript would allow programmers to create user actions to both web pages and web applications. It makes a web page dynamic by manipulating the content of the page.
+
+Compatibility of JavaScript and HTML
+– HTML is cross browser compatible which means it works fine with all versions of all web browser including modern browsers. All browsers, old and new, handle unrecognized elements as inline elements by default, which makes it easy for older web browsers to handle unknown HTML elements. JavaScript, on the other hand, lacks cross-browser compatibility which makes some functions incompatible with some browsers.
+
+Examples of situations where we use HTML and Javascript->
+
+HTML is used for Web Development: HTML is used to structure the web page in various ways. We could include different sections, insert tables, and split the web page. With the introduction of Semantic HTML elements in HTML5, HTML has made hassle free even for the developer to understand and modify the code.
+
+On the other hand, 
+
+JavaScript allows us to add dynamic behavior to the webpage and add special effects to the webpage. On websites, it is mainly used for validation purposes. JavaScript helps us to execute complex actions and also enables the interaction of websites with visitors. Using JavaScript, it is also possible to load the content in a document without reloading the webpage.
+     JavaScript helps the users to build modern web applications to interact directly without reloading the page every time. JavaScript is commonly used to dynamically modify HTML and CSS to update a user interface by the DOM API.
+
+

@@ -1,0 +1,77 @@
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Ans.
+In JavaScript, operators are symbols that perform operations on operands, which can be values or variables. Operators can be categorized based on their functionality. Here are some common categories of operators in JavaScript:
+
+1. Arithmetic Operators:
+   - Perform basic arithmetic operations.
+   - Examples: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulus), `++` (increment), `--` (decrement).
+  
+  javascript code:
+   let a = 5;
+   let b = 2;
+
+   console.log(a + b); // 7
+   console.log(a * b); // 10
+  
+
+2. Comparison Operators:
+   - Compare two values and return a Boolean result.
+   - Examples: `==` (equality), `===` (strict equality), `!=` (inequality), `!==` (strict inequality), `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to).
+  
+  javascript code:
+   let x = 5;
+   let y = 10;
+
+   console.log(x === y); // false
+   console.log(x < y);   // true
+
+
+3. Logical Operators:
+   - Perform logical operations and return a Boolean result.
+   - Examples: `&&` (logical AND), `||` (logical OR), `!` (logical NOT).
+  
+  javascript code:
+   let p = true;
+   let q = false;
+
+   console.log(p && q); // false
+   console.log(p || q); // true
+
+
+4. Assignment Operators:
+   - Assign values to variables.
+   - Examples: `=` (assignment), `+=` (addition assignment), `-=`, `*=` (multiplication assignment), `/=`, `%=`.
+
+   javascript code:
+   
+   let num = 10;
+   num += 5; // equivalent to num = num + 5;
+   console.log(num); // 15
+   
+
+5. Bitwise Operators:
+   - Perform bitwise operations on integers.
+   - Examples: `&` (bitwise AND), `|` (bitwise OR), `^` (bitwise XOR), `~` (bitwise NOT), `<<` (left shift), `>>` (right shift).
+
+   javascript code:
+  
+   let a = 5; // binary representation: 0101
+   let b = 3; // binary representation: 0011
+
+   console.log(a & b); // 1 (bitwise AND)
+   console.log(a | b); // 7 (bitwise OR)
+  
+
+6. Unary Operators:
+   - Operate on a single operand.
+   - Examples: `+` (unary plus), `-` (unary minus), `++` (prefix or postfix increment), `--` (prefix or postfix decrement), `!` (logical NOT).
+  
+  javascript code:
+   let num = 5;
+
+   console.log(-num); // -5 (unary minus)
+   console.log(++num); // 6 (prefix increment)
+ 
+
+These are some of the main categories of operators in JavaScript, and understanding them is fundamental to writing effective and expressive code.

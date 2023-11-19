@@ -1,0 +1,67 @@
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+Ans.
+In JavaScript, operators are categorized based on the number of operands they operate on. Here's a differentiation between unary, binary, and ternary operators, along with examples:
+
+1. Unary Operators:
+   - Operate on a single operand.
+   - Examples:
+     - Unary Plus `+`: Converts an operand to a number.
+       javascript code:
+       let num = "5";
+       let result = +num; // converts "5" to 5
+       console.log(result); // 5
+      
+
+     - Unary Minus `-`: Negates its operand.
+       javascript code:
+       let num = 10;
+       let result = -num; // negates 10
+       console.log(result); // -10
+       
+
+     - Logical NOT `!`: Returns the negation of its operand.
+       javascript code:
+       let isTrue = true;
+       let result = !isTrue; // negates true
+       console.log(result); // false
+      
+
+2. Binary Operators:
+   - Operate on two operands.
+   - Examples:
+     - Addition `+`: Adds two operands.
+       javascript code:
+       let a = 5;
+       let b = 10;
+       let sum = a + b; // adds 5 and 10
+       console.log(sum); // 15
+      
+
+     - Subtraction `-`: Subtracts the right operand from the left operand.
+       javascript code:
+       let a = 10;
+       let b = 3;
+       let difference = a - b; // subtracts 3 from 10
+       console.log(difference); // 7
+      
+
+     - Assignment `=`: Assigns the value of the right operand to the left operand.
+      javascript code:
+       let x = 5;
+       let y = 10;
+       x = y; // assigns the value of y to x
+       console.log(x); // 10
+      
+
+3. Ternary Operator:
+   - A single operator that takes three operands.
+   - It's often used as a shorthand for an `if...else` statement.
+   - Syntax: `condition ? expressionIfTrue : expressionIfFalse`
+   - Example:
+    javascript code:
+     let age = 20;
+     let result = age >= 18 ? "Adult" : "Minor";
+     console.log(result); // "Adult" (if age is 20)
+    
+
+In summary, the key difference lies in the number of operands each type of operator works with. Unary operators have one operand, binary operators have two, and the ternary operator has three.

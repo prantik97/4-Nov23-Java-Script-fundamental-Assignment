@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./Question-6.js"></script>
+    <title>BMI calculator</title>
+</head>
+
+<body>
+    <div class="container flex justify-center items-center mt-5">
+        <div class="card  w-[600px] bg-teal-200 rounded-lg">
+            <div class="card_header flex justify-center items-center text-center bg-teal-900 h-16 rounded-lg rounded-b-none text-white">BMI CALCULATOR</div>
+            <div class="card_body ">
+                <form class="flex flex-col items-center gap-4 mt-1" onsubmit="return false">
+                    <div class="form_grp flex flex-col">
+                        <label> Weight: </label>
+                        <input type="text" name="" id="weight" placeholder="Enter value in Kg" class="w-72 h-10 rounded-lg border-2 border-gray-400 p-1"/>
+                    </div>
+                    <div class="form_grp flex flex-col">
+                        <label> Height: </label>
+                        <input type="text" name="" id="height" placeholder="Enter value in Meter" class="w-72 h-10 rounded-lg border-2 border-gray-400 p-1"/>
+                    </div>
+                    <div class="form_grp flex flex-col">
+                        <label> BMI Value: </label>
+                        <input type="text" name="" id="bmi_value" class="w-72 h-10 rounded-lg border-2 border-gray-400 p-1"/>
+                    </div>
+                    <div class="form_grp flex flex-col" >
+                        <button type="submit" class="bg-sky-700 text-white rounded-lg p-2 " onclick="BMI_calculator()">Check BMI</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card_footer flex justify-center items-center text-white bg-teal-900 h-16 rounded-lg rounded-t-none mt-2 text-center">A Healthy BMI ranges between 19 to 25</div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

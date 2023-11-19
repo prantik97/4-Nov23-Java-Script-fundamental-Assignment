@@ -1,0 +1,20 @@
+Question 1: Explain what JavaScript is and its role in web development.
+Ans. Definition:  It is a client-side scripting language that lets web developers make Web Application Development smoother and dynamic.
+    Role of JavaScript in Web devedlopment:
+    JavaScript is a lightweight interpreted programming language. The web browser receives the JavaScript code in its original text form and runs the script from that.
+    Some of the roles of JavaScript in web developmentare ->
+
+Adding interactivity to web pages:
+JavaScript can be used to add interactivity to web pages, such as drop-down menus, form validation, and real-time data updates.
+
+Creating dynamic content:
+JavaScript can be used to create dynamic content on web pages, such as news headlines, stock prices, and weather forecasts.
+
+Improving user experience:
+JavaScript can be used to improve the user experience on web pages, such as by making them more responsive and interactive.
+
+Enabling cross-platform compatibility:
+JavaScript can be used to enable cross-platform compatibility for web pages, such as by making them work on both desktop and mobile devices.
+
+Extending the functionality of HTML:
+JavaScript can be used to extend the functionality of HTML, such as by adding new elements and attributes.
